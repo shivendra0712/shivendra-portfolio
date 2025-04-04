@@ -22,7 +22,7 @@
 
 <body class="dark bg-gray-900 text-white transition-colors duration-300">
     <div class="w-screen h-screen overflow-x-hidden">
-        <div class="main w-full h-min ">
+        <div class="main w-full h-min relative">
             <div class="nav w-full h-20  flex items-center justify-between px-6 md:px-10 lg:px-14  z-40">
                 <h2 class="text-xl font-md ">Shivendra </h2>
                 <div class="links hidden  md:block md:flex md:items-center md:justify-center md:gap-6 lg:gap-8">
@@ -45,13 +45,13 @@
             </div>
             <div class="w-full flex  flex-col-reverse mg:flex-row lg:flex-row">
                 <div
-                    class="hero-section  w-full md:w-[85%] lg:w-[85%] flex flex-col justify-center items-center gap-4 py-20 px-10 md:px-16 lg:px-24 mx-auto">
-                    <h1 class="text text-5xl font-light text-center">Hey, I'm <span class="font-medium">Shivendra</span>
+                    class="hero-section  w-full md:w-[85%] lg:w-[85%] flex flex-col justify-center  gap-4 py-20 px-10 md:px-16 lg:px-24 mx-auto">
+                    <h1 class="text text-5xl font-light ">Hey, I'm <span class="font-medium">Shivendra</span>
                     </h1>
                     <!-- <h2 class="text text-5xl font-light text-center">Full Stack Developer</h2> -->
-                    <p class="text-center text-xl">I'm a <span class="text-change font-semibold">Full Stack Developer</span> with a passion
+                    <p class=" text-xl">I'm a <span class="text-change font-semibold">Full Stack Developer</span> with a passion
                         for building scalable and user-friendly applications.</p>
-                    <p class="text-center text-lg">Welcome to my portfolio I specialize in creating seamless web
+                    <p class="text-lg">Welcome to my portfolio I specialize in creating seamless web
                         experiences using modern technologies like React, Node.js, and MongoDB. Whether it's a dynamic
                         frontend or a robust backend, I love turning ideas into reality.</p>
                     <!-- <div class=" flex flex-col justify-center items-center gap-4 mt-6">
@@ -74,11 +74,13 @@
                     </iframe>
                 </div>  
             </div>
+            <div class="darkBox  w-35 h-10 absolute right-5 top-[91.5%] bg-[#101828] transition-colors duration-300"></div>
+            <div class="lightBox hidden w-35 h-10 absolute right-5 top-[91.5%] bg-[rgb(227,227,227)] transition-colors duration-300"></div>
         </div>
         <div class="skill-section w-full h-min  px-10 md:px-16 lg:px-24 py-14">
             <h1 class="text text-4xl font-medium my-4">About Me</h1>
             <div class="w-full  py-6">
-                <p class="text-center text-lg">Passionate MERN Stack Developer with strong skills in MongoDB,
+                <p class="text-lg">Passionate MERN Stack Developer with strong skills in MongoDB,
                     Express.js, React, and Node.js. I am excited to
                     build scalable web applications, Implement authentication & security, and Work with real-time
                     features using
@@ -180,7 +182,7 @@
                     </div>
                 </div>
                 <div
-                    class="box_child  w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50 ">
+                    class="box_child  w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
                     <img class="w-full rounded-xl" src="images/project2.png" alt="">
                     <h1 class="text-xl font-semibold my-4 ">NGO Project</h1>
                     <p
@@ -207,7 +209,7 @@
                     </div>
                 </div>
                 <div
-                    class="box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50 ">
+                    class="box_child w-full md:w-[32%] lg:w-[31%]  p-4 my-8 rounded-xl  border-2 border-white/50  transform transition duration-400 hover:scale-110">
                     <img class="w-full rounded-xl" src="images/project3.png" alt="">
                     <h1 class="text-xl font-semibold my-4 ">Mock brand website</h1>
                     <p
